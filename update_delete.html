@@ -1,0 +1,34 @@
+<script defer src="./update.js"></script>
+<div class="container">
+  <form id="form" action="#" method="post">
+    <div class="header-form">
+    <h2 class="heading">Create a New Employee Record</h2>
+    <span class="close">&times;</span>
+    </div>
+      <div class="input-control">
+          <label for="employee_name">Name:</label><br>
+          <input id="employee_name" id="updateName" type="text" name="employee_name" ><br>
+          <div class="error"></div>
+      </div>
+      <div class="input-control">
+          <label for="phone">Phone Number:</label><br>
+          <input id="updatePhone" type="tel" name="phone"><br>
+          <div class="error"></div>
+      </div>
+      <div class="input-control">
+          <label for="email">Email:</label><br>
+          <input id="updateEmail" type="email" name="email" ><br>
+          <div class="error"></div>
+      </div>
+      <div class="input-control">
+          <label for="position">Position:</label><br>
+          <input id="updatePosition" type="text" name="position" ><br>
+          <div class="error"></div>
+      </div>
+      <button id="submit" type="submit">Create</button>
+      <div id="success"></div>
+      <div id="errorMessage"></div>
+  </form>
+</div>
+
+
